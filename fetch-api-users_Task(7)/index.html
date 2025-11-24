@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fetch Users from API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>User Information</h2>
+    <button id="reloadButton" aria-label="Reload user data">Reload Users</button>
+    <select id="sortDropdown" aria-label="Sort users">
+        <option value="name">Sort by Name</option>
+        <option value="city">Sort by City</option>
+    </select>
+    <div id="message" role="status" aria-live="assertive"></div>
+    <section id="users"></section>
+    <script src="script.js"></script>
+</body>
+</html>
