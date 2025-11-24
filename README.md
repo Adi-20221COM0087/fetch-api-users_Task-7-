@@ -1,1 +1,5 @@
 # fetch-api-users_Task-7-
+
+This project demonstrates how to fetch and display user data from a public API using JavaScript’s Fetch API. The main requirements were to create a simple web page that retrieves user data from https://jsonplaceholder.typicode.com/users, parses the JSON response, and displays each user's name, email, and address. The assignment also called for handling errors, styling the data with CSS, using a reload button to refetch data, and managing network errors.
+
+Beyond the base requirements, several enhancements have been added to deliver a better user experience and more robust application. These include a mobile-friendly responsive design, improved accessibility (ARIA roles, keyboard navigation), active user card selection and highlighting, a "loading" indicator, a clear retry button on network failure, the ability to sort users by name or city, and a modular JavaScript structure for readability and maintainability. These additions ensure the app is not only functional but also user-friendly, visually appealing, accessible, and easy to extend.
